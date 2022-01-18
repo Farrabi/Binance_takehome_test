@@ -30,7 +30,8 @@ Answer of Q5 will be printed every 10 seconds.
 Visit http://localhost:8080/metrics to see the answer of Q6. 
 
 ## To Do / Next Steps
-- Unit tests
-- Handling of exceptions
-- Create an API endpoint to serve near real-time data as the market is volatile and the top 5 crypto will fluctuate. This can be done using a websocket or simply refresh the endpoint every seconds.
+- Unit tests. 
+- Handling of exceptions. 
+- Make a proper api in case if those values need to be queried regularly. 
+- Maybe refresh the localhost:8080/metrics page every 10 seconds (not sure if needed). 
 
