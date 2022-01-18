@@ -136,11 +136,11 @@ class BinanceClient:
     
     
 if __name__ == "__main__":
-# Start up the server to expose the metrics.
+    # initiate the server to show  metrics.
     start_http_server(8080)
     client = BinanceClient()
     client.check_api()
-    # To Print Details as market is volatile maybe more customer friendly to expose those metrics every seconds via an api endpoint. 
+    # As market is volatile maybe more customer friendly to expose those metrics every seconds via an api endpoint. 
     client.get_top_symbols('BTC','quoteVolume',True)
     client.get_top_symbols('USDT', 'count', True)
     client.get_notional_value('BTC', 'quoteVolume', True)
