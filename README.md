@@ -33,6 +33,7 @@ Answers of Q5 will be printed every 10 seconds on the terminal as well.
 Visit http://localhost:8080/metrics to see the answer of Q6. 
 
 ## To Do / Next Steps
+- Create a fully fledge app for enabling the creation of multiple metrics within the same registry. For the moment this client can only create one and only one instance of a class. Might be necessary upon usecase. 
 - Unit tests. 
 - Handling of exceptions. 
 - Make a proper api in case if those values need to be queried regularly. 
