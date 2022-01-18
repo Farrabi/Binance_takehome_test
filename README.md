@@ -9,24 +9,27 @@ Below are the question to be answered using any programming language.
 5. Every 10 seconds print the result of Q4 and the absolute delta from the previous value for each symbol.
 6. Make the output of Q5 accessible by querying http://localhost:8080/metrics using the Prometheus Metrics format.
 
-## Pre-requisite
-Install requirements.txt
+## Requirements
+Install python3.x. (preferably between 3.5 and 3.8)
+Install requirements.txt using the below command line.
+
 ```
 pip3 install -r requirements.txt on Linux/MacOs. 
 or
 pip install -r requirements.txt on Windows
 ```
 
-## Usage
+## How to use
 Instruction on how to run the script.
+Open your terminal and run the below command line. 
 ```
 python3 binance_client.py
 or
 python binance_client.py
 ```
 
-Answer of Q1, Q2, Q3, Q4 will appear on the terminal right away. 
-Answer of Q5 will be printed every 10 seconds. 
+Answers of Q1, Q2, Q3, Q4 will appear on the terminal right away. 
+Answers of Q5 will be printed every 10 seconds on the terminal as well. 
 Visit http://localhost:8080/metrics to see the answer of Q6. 
 
 ## To Do / Next Steps
